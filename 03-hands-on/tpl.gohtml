@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+table, th, td {
+  border:1px solid black;
+  text-align:center;
+}
+</style>
+<body>
+<h1 style="text-align:center">STOCK DATA TEMPLATE</h1>
+<table style="width:100%">
+    {{ range . }}
+        {{if .Header}}
+            <tr>
+                <th>{{.DS}}</th>
+                <th>{{.OS}}</th>
+                <th>{{.HS}}</th>
+                <th>{{.LS}}</th>
+                <th>{{.CS}}</th>
+                <th>{{.VS}}</th>
+            </tr>
+        {{else}}
+            <tr>
+                <td>{{.Date}}</td>
+                <td>{{.Open}}</td>
+                <td>{{.High}}</td>
+                <td>{{.Low}}</td>
+                <td>{{.Close}}</td>
+                <td>{{.Volume}}</td>
+            </tr>
+        {{end}}
+    {{end}}
+</table>
+</body>
+</html>
