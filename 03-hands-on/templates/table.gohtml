@@ -1,17 +1,4 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-</head>
-<style>
-table, th, td {
-  border:1px solid black;
-  text-align:center;
-}
-</style>
-<body>
-<h1 style="text-align:center">STOCK DATA TEMPLATE</h1>
+{{define "table"}}
 <table style="width:100%">
     {{ range . }}
         {{if .Header}}
@@ -35,5 +22,4 @@ table, th, td {
         {{end}}
     {{end}}
 </table>
-</body>
-</html>
+{{end}}

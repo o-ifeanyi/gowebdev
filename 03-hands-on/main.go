@@ -14,6 +14,12 @@ type Record struct {
 	Date, Open, High, Low, Close, Volume string
 }
 
+var tpl *template.Template
+
+func init() {
+	tpl = template.Must(template.ParseGlob("templates/*"))
+}
+
 func main() {
 	http.HandleFunc("/", foo)
 	http.ListenAndServe(":8080", nil)
@@ -22,12 +28,7 @@ func main() {
 func foo(res http.ResponseWriter, req *http.Request) {
 	records := parse("table.csv")
 
-	tpl, err := template.ParseFiles("tpl.gohtml")
-	if err != nil {
-		log.Fatalln(err)
-	}
-
-	err = tpl.Execute(res, records)
+	err := tpl.ExecuteTemplate(res, "tpl.gohtml", records)
 	if err != nil {
 		log.Fatalln(err)
 	}
