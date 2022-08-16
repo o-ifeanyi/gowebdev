@@ -10,3 +10,5 @@
 - [07-hands-on](https://github.com/o-ifeanyi/gowebdev/tree/master/07-hands-on) - Refactor [05-hands-on](https://github.com/o-ifeanyi/gowebdev/tree/master/05-hands-on) to use a HTTP server
 - [08-hands-on](https://github.com/o-ifeanyi/gowebdev/tree/master/08-hands-on) - Use a HTTP server to serve file to a template
 - [09-hands-on](https://github.com/o-ifeanyi/gowebdev/tree/master/09-hands-on) - Use a HTTP server to serve multiple files to a template
+- [10-hands-on](https://github.com/o-ifeanyi/gowebdev/tree/master/10-hands-on) - An example showing the use of cookies and redirects
+- [11-hands-on](https://github.com/o-ifeanyi/gowebdev/tree/master/11-hands-on) - A simple counter app using cookies
