@@ -12,3 +12,4 @@
 - [09-hands-on](https://github.com/o-ifeanyi/gowebdev/tree/master/09-hands-on) - Use a HTTP server to serve multiple files to a template
 - [10-hands-on](https://github.com/o-ifeanyi/gowebdev/tree/master/10-hands-on) - An example showing the use of cookies and redirects
 - [11-hands-on](https://github.com/o-ifeanyi/gowebdev/tree/master/11-hands-on) - A simple counter app using cookies
+- [12-hands-on](https://github.com/o-ifeanyi/gowebdev/tree/master/12-hands-on) - Basic auth flows using sessions and cookies
