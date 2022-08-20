@@ -13,3 +13,4 @@
 - [10-hands-on](https://github.com/o-ifeanyi/gowebdev/tree/master/10-hands-on) - An example showing the use of cookies and redirects
 - [11-hands-on](https://github.com/o-ifeanyi/gowebdev/tree/master/11-hands-on) - A simple counter app using cookies
 - [12-hands-on](https://github.com/o-ifeanyi/gowebdev/tree/master/12-hands-on) - Basic auth flows using sessions and cookies
+- [13-hands-on](https://github.com/o-ifeanyi/gowebdev/tree/master/13-hands-on) - Interacting with MySQL db and performing basic CRUD using go
