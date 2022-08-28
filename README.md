@@ -17,4 +17,4 @@
 - [14-hands-on](https://github.com/o-ifeanyi/gowebdev/tree/master/14-hands-on) - Basic CRUD using MVC arch and persisting data with file
 - [15-hands-on](https://github.com/o-ifeanyi/gowebdev/tree/master/15-hands-on) - Basic CRUD using MVC arch and persisting data with mongodb
 - [16-hands-on](https://github.com/o-ifeanyi/gowebdev/tree/master/16-hands-on) - Connect to Postgres from Go
-- [16-hands-on](https://github.com/o-ifeanyi/gowebdev/tree/master/16-hands-on) - Basic CRUD with code organisation/dependency injection with Postgres
+- [17-hands-on](https://github.com/o-ifeanyi/gowebdev/tree/master/17-hands-on) - Basic CRUD with code organisation/dependency injection with Postgres
