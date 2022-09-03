@@ -4,5 +4,5 @@ type Book struct {
 	Isbn   string
 	Title  string
 	Author string
-	Price  float32
+	Price  float32 `bson:"price,truncate"`
 }
